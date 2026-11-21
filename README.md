@@ -1,4 +1,7 @@
-# edge-detection-opencv
+## EX.No: 6-EDGE DETECTION
+
+## Name : Muralidharan M
+## Reg. No : 212223040120
 
 ## Aim
 
@@ -68,7 +71,10 @@ gray_image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 plt.imshow(cv2.cvtColor(image, cv2.COLOR_BGR2RGB))
 plt.title('Original Image')
 plt.axis('off')
+```
+<img width="307" height="411" alt="image" src="https://github.com/user-attachments/assets/5b9236a6-3412-4fa3-a814-d4d9451cbaf6" />
 
+```
 sobel_x = cv2.Sobel(gray_image, cv2.CV_64F, 1, 0, ksize=5)  # Sobel in x direction
 sobel_y = cv2.Sobel(gray_image, cv2.CV_64F, 0, 1, ksize=5)  # Sobel in y direction
 sobel_combined = cv2.magnitude(sobel_x, sobel_y)  # Combine both directions
@@ -76,19 +82,27 @@ sobel_combined = cv2.magnitude(sobel_x, sobel_y)  # Combine both directions
 plt.imshow(sobel_combined, cmap='gray')
 plt.title('Sobel Edge Detection')
 plt.axis('off')
+```
+<img width="307" height="411" alt="image" src="https://github.com/user-attachments/assets/42ccf254-0205-41d2-8530-6a6879fc82c6" />
 
+```
 laplacian = cv2.Laplacian(gray_image, cv2.CV_64F)
 
 plt.imshow(laplacian, cmap='gray')
 plt.title('Laplacian Edge Detection')
 plt.axis('off')
+```
+<img width="307" height="411" alt="image" src="https://github.com/user-attachments/assets/6b9be9b2-6ada-4984-af44-7d869b823aa4" />
 
+```
 canny_edges = cv2.Canny(gray_image, 50, 150)
 
 plt.imshow(canny_edges, cmap='gray')
 plt.title('Canny Edge Detection')
 plt.axis('off')
 ```
+<img width="307" height="411" alt="image" src="https://github.com/user-attachments/assets/64c2995d-d77d-41c3-902c-0fc65ca5db7d" />
+
 
 ## Output
 
