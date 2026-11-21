@@ -104,18 +104,6 @@ plt.axis('off')
 <img width="307" height="411" alt="image" src="https://github.com/user-attachments/assets/64c2995d-d77d-41c3-902c-0fc65ca5db7d" />
 
 
-## Output
-
-<img width="1022" height="493" alt="image" src="https://github.com/user-attachments/assets/7ba574ba-69cd-4d7c-ad92-5d757a8cb48f" />
-
-<img width="1115" height="500" alt="image" src="https://github.com/user-attachments/assets/cd3ab14a-7984-48f4-841b-12d5eb781ecb" />
-
-<img width="1192" height="485" alt="image" src="https://github.com/user-attachments/assets/8ffd2633-cb30-4c52-bbd7-403d59bc00a4" />
-
-<img width="1186" height="492" alt="image" src="https://github.com/user-attachments/assets/17a14655-7d37-4db0-805b-0b48529fcfa5" />
-
-
-
 ###  Sobel Edge Detector
 - Detects edges in horizontal and vertical directions  
 - Produces gradient-based edge map  
